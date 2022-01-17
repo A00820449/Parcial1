@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+    font-family: 'serif';
+}
+
+header {
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.jobs-picture {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border: 5px double black;
+}
+
+.jobs-quote {
+    display: block;
+    margin: 1rem 0;
+    font-weight: bold;
+    font-family: 'Arial', 'sans-serif';
+}
+
+.main-list > li {
+    margin: 1rem 0;
+}
+
+.date {
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 50px;
+}
